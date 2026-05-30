@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa6';
 import ScrollReveal from '../components/ScrollReveal';
-// import img from'.src/assets/Images/Elgbaly.jpg'
+import elgbaly from "../assets/Images/Elgbaly.jpg";
+import Amr from "../assets/Images/Amr.jpg";
 const barbers = [
   {
     name: 'محمد الجبالي',
@@ -10,7 +11,7 @@ const barbers = [
     specialty: 'فيد وتشكيل اللحية',
     bio: 'محمد هو الرؤية وراء فايف ستار. بأكثر من ٧ سنوات من الإتقان، حوّل الحلاقة إلى فن حقيقي. أسلوبه المتميز في الفيد الدقيق وتشكيل اللحية أكسبه قاعدة عملاء وفية في المنيا. تدرب محمد على يد أمهر الحلاقين في مصر ويجلب ذلك المعيار الرفيع لكل عميل يجلس على كرسيه.',
     skills: ['سكين فيد', 'تشكيل اللحية', 'حلاقة كلاسيك', 'صبغ الشعر'],
-    image: 'src/assets/Images/Elgbaly.jpg',
+    image: elgbaly,
   },
   {
     name: 'عمرو ابو عاصم',
@@ -19,7 +20,7 @@ const barbers = [
     specialty: 'الأنماط العصرية والتكستشر',
     bio: 'عمرو هو القوة الإبداعية في فايف ستار بشغفه بالأنماط العصرية وقصات التكستشر. قدرته على قراءة شخصية العميل وترجمتها لقصة مثالية لا مثيل لها. متخصص في التقنيات المعاصرة، يواكب عمرو أحدث الترندات ويقدم نتائج تستحق المجلات في كل مرة.',
     skills: ['تكستشر كروب', 'بومباد', 'فرنش كروب', 'استشارة الستايل'],
-    image: 'src/assets/Images/Amr.jpg',
+    image: Amr,
   }
 ];
 
